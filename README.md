@@ -20,7 +20,7 @@ Edit Configure-ESU.ps1 and edit following variables:
   Array of available proxies in your environment (FQDN/IP:Port)
 - $ESUKeyWin7
   ESU key of Windows 7 you have purchased
-- $ESUKeyWin2008
+- $ESUKeyWin2k8
   ESU key of Windows 2008/R2 you have purchased
 
 Personnally, I use SCCM with a package containing the PowerShell script and a Task Sequence for running the script with an administrator account (**a proxy cannot be configured on a SYSTEM context**).
