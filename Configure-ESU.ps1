@@ -5,7 +5,7 @@
 # // Developer: Florian Valente
 # // 
 # // Purpose:   Install and activate ESU key for Win2008/2008R2/7 OS
-# // Important: Set $ProxyAddress and $ESUKEY variables before running this script!
+# // Important: Set $ProxyAddress and $ESUKeyWin7 and $ESUKeyWin2k8 variables before running this script!
 # // Usage:     Configure-ESU.ps1
 # // ***************************************************************************
 $ValidationKeyPath = "HKLM:\SOFTWARE\ESU_Remediation"
