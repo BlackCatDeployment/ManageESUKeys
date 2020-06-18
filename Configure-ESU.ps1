@@ -16,7 +16,7 @@ try {
     [System.Environment]::Exit(0)
 }
 catch {
-    # Contine because this script was never run
+    # Continue because this script was never run
 }
 
 
